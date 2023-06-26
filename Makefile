@@ -1,5 +1,5 @@
 program: Aufgabe_2_main.o libstatistics.a
-	gcc Aufgabe_2_main.o -L. -lstatistics -o program
+	gcc Aufgabe_2_main.o -L. -lstatistics -lm -o program
 
 libstatistics.a: statistics.o
 	ar rcs libstatistics.a statistics.o
