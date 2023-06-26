@@ -1,0 +1,2 @@
+Missing required arguments.
+Usage: ./program -e <expected_value> -s <std_deviation> -n <amount_of_values>
