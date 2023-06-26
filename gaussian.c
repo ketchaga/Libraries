@@ -1,6 +1,7 @@
 #include "gaussian.h"
 #include <stdlib.h>
 #include <math.h>
+#include <time.h>
 
 void print_gaussian_dist(int expected_value, int std_deviation, int amount_of_values, FILE *output_stream) {
     srand(time(NULL));  // Initialisiere den Zufallszahlengenerator
